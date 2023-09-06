@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Interactive design</title>
+    <meta name="author" content="Yearn Tan Yin Tze">
+    <!-- Make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css"> 
+  </head>
+
+  <body id="home">
+    <header>
+      <h1>Cute spongebob</h1>
+    </header>
+    <main>
+      <!-- Canvas area -->
+      <canvas id="myCanvas" width="500" height="500"></canvas>
+      <div class="output_area">
+        <!-- Buttons for neutral, happy and sad expressions -->
+        <button type="button" name="neutralbutton" id="neutralbutton">neutral</button>
+        <button type="button" name="happybutton" id="happybutton">happy</button>
+        <button type="button" name="sadbutton" id="sadbutton">sad</button>
+      </div>
+
+      <div class="text-content">
+        <p>There are three buttons, happy, sad and neutral which indicates different face expressions.</p>
+        <p>When user clicks on sad button, eyebrows, cheeks and mouth of cartoon change</p>
+        <p>When user clicks on happy button, eyebrows, cheeks and mouth change and teeth appear.</p>
+        <p>Eyes for sad face and happy face are the same.</p>
+        <p>When user clicks on neutral button, again, eyebrows, cheeks, eyes and lips changes</p>
+        <p>Beard appears when user clicks on chin area, and it will disappear when users click on chin again.</p>
+        <p>Details of beard will be different for each expression. For instance, the colour will be white for neutral face, yellow for happy face and blue for sad face.</p>
+        <p>New hairstyle when user clicks on hair area, and it will go back to the original hairstyle when users click again.</p>
+        <p>Details of new hairstyle will be different for each expression. For instance, the colour will be white for neutral face, yellow for happy face and blue for sad face.</p>
+        <p>This canvas is mobile-first responsive, meta vieport is added.</p>
+        <p>For example, font-size is 16px when screen size is below 600px so that fonts are clearly visible</p>
+        <p>For desktop, font-size is 24px.</p>
+      </div>
+    </main>
+
+    <footer> 
+      <p class="copyright">© Yearn 2022</p>
+    </footer>
+  </body>
+
+  <script src="script.js"></script>
+  
+</html>
